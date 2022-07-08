@@ -1,0 +1,532 @@
+GIANTS Engine Runtime 9.0.0 (27282) 64bit (Build Date: Apr  7 2022)
+Copyright (c) 2008-2021, GIANTS Software GmbH (giants-software.com), All Rights Reserved.
+Copyright (c) 2003-2021, Christian Ammann and Stefan Geiger, All Rights Reserved.
+Application: FarmingSimulator2022
+Main System
+  CPU: Intel(R) Core(TM) i7 CPU         950  @ 3.07GHz
+  Memory: 12278 MB
+  OS: Windows NT 10.0 64-bit
+Physics System
+  Version: 5.9.5
+  Thread(s): 2
+Audio System
+  Driver: SoftMixer WASAPI Stereo
+  Version: 2018.11
+  Frequency: 48000
+  Max. active sources: 256
+Render System
+  Driver: Direct 3D 12
+  Card Vendor: NVIDIA Corporation
+  Renderer: NVIDIA GeForce GTX 1660 SUPER
+  Version: 30.0.14.9676 (9.11.2021)
+  Revision: 161
+  Hardware Feature Level : 12_1
+  Windowed Mode               : on
+  V-Sync                      : on
+  Allow Tearing               : off
+  Validation Layer            : off
+  Effective Window Size       : 1920 x 1080px
+  Effective Swap Chain Size   : 1920 x 1080px
+Started 3 threads for threadpool 'Render threadpool'
+Hardware Profile
+  Level: Custom Medium
+  View Distance Factor: 1.200000
+  Shadow Quality: 2.000000 Base-Size: 2048 Filter-Size: 4
+  Shadow Focus Box: false
+  Foliage Shadows: false
+  Shader Quality: 1
+  Skip Mipmaps: 0
+  LOD Distance Factor: 1.200000
+  Terrain LOD Distance Factor: 1.200000
+  Terrain Quality: 2
+  Foliage View Distance Factor: 1.200000
+  Volume Mesh Tessellation Factor: 1.000000
+  Tyre Tracks Segments Factor: 1.000000
+  Max. Number of Shadow Lights: 1
+  Max. Number of Lights: 128
+  Max. Number of Dir Lights: 4
+  Max. Number of Lights Per Cluster: 32
+  MSAA: 1
+  Post Process AA: TAA
+  DLSS Quality: Off
+  AMD FidelityFx SR Quality: Off
+  Sharpness: 1.00
+  Recommended Window Size: 1280 x 720px
+  Bloom Quality: 3
+  SSAO Quality: 11
+  SSAO Resolution Scaling: 0.500000
+  DOF: Disabled
+  Half Resolution DOF: Disabled
+  Cloud Quality: 2
+  Texture Streaming: Enabled
+  EnvMap Blending: Enabled
+  Dynamic Specular EnvMap: Disabled
+  Shading Rate Quality: 0
+Input System
+  Keyboard enabled
+  Mouse enabled
+  Gamepad/Joystick enabled
+  Force Feedback disabled
+  Devices:
+    XINPUT_GAMEPAD
+      Number of Axes: 6
+      Number of Buttons: 14
+Started 1 threads for threadpool 'TerrainPatchOccluderManager unique worker'
+ Used Start Parameters:
+    name FarmingSimulator2022
+    cheats 
+    exe x64/FarmingSimulator2022Game.exe
+Platform: loading defaults
+  Setting 'Master Volume': 1.000
+  Setting 'Is Train Tabbable': false
+  Setting 'Radio Vehicle Only': false
+  Setting 'Radio Active': false
+  Setting 'Use Colorblind Mode': false
+  Setting 'Easy Arm Control': false
+  Setting 'Show Trigger Marker': true
+  Setting 'Show Help Trigger': false
+  Setting 'Show Field-Info': true
+  Setting 'Invert Y-Look': false
+  Setting 'Show Help Icons': true
+  Setting 'Radio Volume': 0.500
+  Setting 'Vehicle Volume': 0.700
+  Setting 'Environment Volume': 1.000
+  Setting 'GUI Volume': 0.500
+  Setting 'Master Volume': 1.000
+  Setting 'Music Volume': 0.500
+Farming Simulator 22
+  Version: 1.4.1.0 b16700
+  Available Languages: en de jp pl cz fr es ru it pt hu nl cs ct br tr ro kr ea da fi no sv fc
+  Language: en
+  Time: 2022-04-23 00:27:25
+  ModDesc Version: 65
+  Mod Directory: C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/
+  Cheats: Enabled
+Extra Content: Unlocked 'PORSCHE_JUNIOR'
+Extra Content: Unlocked 'ALDI_HOODIE'
+Available dlc: (Hash: 49bfa385ca90594408a7f75db8783578) (Version: 1.1.0.0) pdlc_claasSaddleTracPack
+Available dlc: (Hash: dc21ec04d9c6c802a78e7f384d7872df) (Version: 1.0.0.0) pdlc_extraContentFendtBlackBeauty
+ExtraContent: Unlocked 'FENDT900BB'
+dataS/character/humans/player/animations.i3d (860.55 ms)
+dataS/character/humans/player/vehicleCharacterAnimations.i3d (4.60 ms)
+Available dlc: (Hash: 26d28a2c31f8c935da91f6a80bbfaeaf) (Version: 1.0.0.0) pdlc_extraContentMackBlackAnthem
+ExtraContent: Unlocked 'MACK_BLACK_ANTHEM'
+dataS/character/humans/npc/animations.i3d (85.93 ms)
+Available dlc: (Hash: 5870071eae37fba9ff3b13a7978dde18) (Version: 1.0.0.0) pdlc_extraContentZetor
+ExtraContent: Unlocked 'ZETOR25K'
+Available mod:  (Version: 1.0.0.0) FS22_bbLifter
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS22_bbLifter to use it in multiplayer.
+Available mod:  (Version: 1.0.0.0) FS22_factory_pack
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS22_factory_pack to use it in multiplayer.
+Available mod:  (Version: 1.0.0.0) FS22_kracher
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS22_kracher to use it in multiplayer.
+Available mod:  (Version: 1.0.0.0) FS22_krone_Auto
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS22_krone_Auto to use it in multiplayer.
+Available mod: (Hash: 00472c37c49402f01d45e4cccf9a8b18) (Version: 1.0.0.0) FS22_PowerTools
+Available mod: (Hash: 9d2c900e4363c8bce028d256d8dab654) (Version: 1.0.0.0) FS22_precisionFarming
+Available mod: (Hash: d56999f77157d235cfe07fea8caa0749) (Version: 1.0.0.0) FS22_Production_Pallets_Pack
+Available mod:  (Version: 1.0.0.0) FS22_rtkStation
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS22_rtkStation to use it in multiplayer.
+Available mod:  (Version: 1.0.0.0) FS22_sfhStorage
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS22_sfhStorage to use it in multiplayer.
+Available mod:  (Version: 1.0.0.0) FS22_shed_Pack
+Warning: Duplicate l10n entry 'function_bunkerSilo' in mod 'FS22_shed_Pack'. Ignoring this definition.
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS22_shed_Pack to use it in multiplayer.
+Available mod: (Hash: 098cda486d5cc7c20c26ef6280ab6fcf) (Version: 1.0.0.0) FS22_storeDeliveries
+Available mod: (Hash: 7583296b73ce6530633e23661aeee3bf) (Version: 1.0.0.0) FS22_tatraPhoenix
+Available mod:  (Version: 1.0.0.0) FS22_woolPallet
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS22_woolPallet to use it in multiplayer.
+Info: DLSS not available
+Info: DLSS not available
+Info: DLSS not available
+Info: DLSS not available
+Info: DLSS not available
+2022-04-23 00:28   Loaded 'vehicle' specializations
+2022-04-23 00:28   Loaded 'placeable' specializations
+2022-04-23 00:28   Loaded vehicle types
+2022-04-23 00:28   Loaded placeable types
+2022-04-23 00:28   Info:   Loaded construction brush types
+2022-04-23 00:28   Load mod: FS22_bbLifter
+2022-04-23 00:28   Load mod: FS22_PowerTools
+2022-04-23 00:28 Load mod: Power Tools (v1.0.0.0) by w33zl
+2022-04-23 00:28   Load mod: FS22_Production_Pallets_Pack
+2022-04-23 00:28   Load mod: FS22_tatraPhoenix
+2022-04-23 00:28   Register configuration 'baseColor'
+2022-04-23 00:28   Register configuration 'design'
+2022-04-23 00:28   Register configuration 'designColor'
+2022-04-23 00:28   Register configuration 'vehicleType'
+2022-04-23 00:28   Register configuration 'design2'
+2022-04-23 00:28   Register configuration 'design3'
+2022-04-23 00:28   Register configuration 'design4'
+2022-04-23 00:28   Register configuration 'design5'
+2022-04-23 00:28   Register configuration 'design6'
+2022-04-23 00:28   Register configuration 'design7'
+2022-04-23 00:28   Register configuration 'design8'
+2022-04-23 00:28   Register configuration 'ai'
+2022-04-23 00:28   Register configuration 'inputAttacherJoint'
+2022-04-23 00:28 data/shared/ai/trafficCollision.i3d (2.19 ms)
+2022-04-23 00:28   Register configuration 'attacherJoint'
+2022-04-23 00:28   Register workAreaType 'BALER'
+2022-04-23 00:28   Register configuration 'wrappingColor'
+2022-04-23 00:28   Register configuration 'wrappingAnimation'
+2022-04-23 00:28   Register configuration 'baseMaterial'
+2022-04-23 00:28   Register configuration 'designMaterial'
+2022-04-23 00:28   Register configuration 'designMaterial2'
+2022-04-23 00:28   Register configuration 'designMaterial3'
+2022-04-23 00:28   Register configuration 'multipleItemPurchaseAmount'
+2022-04-23 00:28   Register workAreaType 'COMBINECHOPPER'
+2022-04-23 00:28   Register workAreaType 'COMBINESWATH'
+2022-04-23 00:28   Register configuration 'cover'
+2022-04-23 00:28   Register workAreaType 'CULTIVATOR'
+2022-04-23 00:28   Register workAreaType 'CUTTER'
+2022-04-23 00:28   Register configuration 'dischargeable'
+2022-04-23 00:28   Register configuration 'fillUnit'
+2022-04-23 00:28   Register configuration 'fillVolume'
+2022-04-23 00:28   Register configuration 'folding'
+2022-04-23 00:28   Register workAreaType 'FORAGEWAGON'
+2022-04-23 00:28   Register configuration 'frontloader'
+2022-04-23 00:28   Register workAreaType 'FRUITPREPARER'
+2022-04-23 00:28   Register configuration 'motor'
+2022-04-23 00:28   Register workAreaType 'MULCHER'
+2022-04-23 00:28   Register workAreaType 'MOWER'
+2022-04-23 00:28   Register configuration 'pipe'
+2022-04-23 00:28   Register configuration 'plow'
+2022-04-23 00:28   Register workAreaType 'PLOW'
+2022-04-23 00:28   Register configuration 'powerConsumer'
+2022-04-23 00:28   Register workAreaType 'RIDGEMARKER'
+2022-04-23 00:28   Register configuration 'roller'
+2022-04-23 00:28   Register workAreaType 'ROLLER'
+2022-04-23 00:28   Register workAreaType 'SALTSPREADER'
+2022-04-23 00:28   Register workAreaType 'SOWINGMACHINE'
+2022-04-23 00:28   Register workAreaType 'SPRAYER'
+2022-04-23 00:28   Register workAreaType 'STONEPICKER'
+2022-04-23 00:28   Register workAreaType 'STUMPCUTTER'
+2022-04-23 00:28   Register workAreaType 'TEDDER'
+2022-04-23 00:28   Register configuration 'tensionBelts'
+2022-04-23 00:28   Register configuration 'trailer'
+2022-04-23 00:28   Register configuration 'treeSaplingType'
+2022-04-23 00:28   Register configuration 'variableWorkWidth'
+2022-04-23 00:28   Register workAreaType 'WEEDER'
+2022-04-23 00:28   Register configuration 'wheel'
+2022-04-23 00:28   Register configuration 'rimColor'
+2022-04-23 00:28   Register workAreaType 'WINDROWER'
+2022-04-23 00:28   Register workAreaType 'DEFAULT'
+2022-04-23 00:28   Register workAreaType 'AUXILIARY'
+2022-04-23 00:28   Register configuration 'workArea'
+2022-04-23 00:28   Register configuration 'workMode'
+2022-04-23 00:28   Info: Loading ConnectionHoses from 'data/shared/connectionHoses/connectionHoses.xml'
+2022-04-23 00:28 data/shared/connectionHoses/hoses.i3d (78.28 ms)
+2022-04-23 00:28 data/shared/connectionHoses/connectors.i3d (48.74 ms)
+2022-04-23 00:28 data/shared/connectionHoses/hoseMaterialHolder.i3d (12.38 ms)
+2022-04-23 00:28 data/objects/roundbales/roundbale125/roundbale125.i3d (14.66 ms)
+2022-04-23 00:28 data/objects/roundbales/roundbale150/roundbale150.i3d (8.50 ms)
+2022-04-23 00:28 data/objects/roundbales/roundbale180/roundbale180.i3d (9.65 ms)
+2022-04-23 00:28 data/objects/squarebales/squarebale240/squarebale240.i3d (14.18 ms)
+2022-04-23 00:28 data/objects/squarebales/squarebale220/squarebale220.i3d (8.84 ms)
+2022-04-23 00:28 data/objects/squarebales/squarebale180/squarebale180.i3d (14.70 ms)
+2022-04-23 00:28 data/objects/squarebales/squarebale120/squarebale120.i3d (9.32 ms)
+2022-04-23 00:28 data/objects/squarebales/squarebale120/packedSquareBale120.i3d (6.95 ms)
+2022-04-23 00:28 data/objects/cottonModules/cottonRoundbale238.i3d (5.57 ms)
+2022-04-23 00:28 dataS/character/animals/wild/crow/crow.i3d (20.68 ms)
+2022-04-23 00:28 data/objects/cottonModules/cottonSquarebale488.i3d (16.49 ms)
+2022-04-23 00:28 data/objects/roundbales/biomass/biomassBale125.i3d (9.46 ms)
+2022-04-23 00:28 data/shared/aiMarker.i3d (2.38 ms)
+2022-04-23 00:28   Info: resetSplitShapes()
+2022-04-23 00:28 data/shared/alphabet/fontMaterialHolder.i3d (46.30 ms)
+2022-04-23 00:28 data/maps/mapFR/licensePlates/licensePlatesFR.i3d (9.16 ms)
+2022-04-23 00:28 data/effects/cutter/maize/maize_harvestReadyDry.i3d (40.52 ms)
+2022-04-23 00:28 data/effects/cutter/sunflower/sunflower_harvestReady.i3d (23.95 ms)
+2022-04-23 00:28 data/effects/cutter/maize/maize_harvestReadyGreen.i3d (20.69 ms)
+2022-04-23 00:28 data/effects/cutter/grass/grass_greenBig.i3d (24.88 ms)
+2022-04-23 00:28 data/effects/cutter/grass/grass_harvestReady.i3d (15.45 ms)
+2022-04-23 00:28 data/effects/cutter/sunflower/sunflower_greenBig.i3d (32.77 ms)
+2022-04-23 00:28 data/effects/cutter/wheat/wheat_greenBig.i3d (17.49 ms)
+2022-04-23 00:28 data/effects/cutter/wheat/wheat_harvestReady.i3d (20.85 ms)
+2022-04-23 00:28 data/effects/cutter/barley/barley_greenBig.i3d (18.96 ms)
+2022-04-23 00:28 data/effects/cutter/barley/barley_harvestReady.i3d (21.42 ms)
+2022-04-23 00:28 data/effects/cutter/oat/oat_greenBig.i3d (19.64 ms)
+2022-04-23 00:28 data/effects/cutter/oat/oat_harvestReady.i3d (25.71 ms)
+2022-04-23 00:28 data/effects/cutter/canola/canola_greenBig.i3d (105.31 ms)
+2022-04-23 00:28 data/effects/cutter/canola/canola_harvestReady.i3d (24.32 ms)
+2022-04-23 00:28 data/effects/cutter/soybean/soybean_greenBig.i3d (39.45 ms)
+2022-04-23 00:28 data/sky/sky.i3d (2.51 ms)
+2022-04-23 00:28 data/effects/cutter/soybean/soybean_harvestReady.i3d (46.59 ms)
+2022-04-23 00:28 data/effects/cutter/sorghum/sorghum_greenBig.i3d (42.55 ms)
+2022-04-23 00:28 data/effects/cutter/sorghum/sorghum_harvestReady.i3d (58.19 ms)
+2022-04-23 00:28 data/effects/cutter/maize/maize_fruits.i3d (14.68 ms)
+2022-04-23 00:28 data/effects/cutter/sunflower/sunflower_fruits.i3d (14.72 ms)
+2022-04-23 00:28 data/effects/cutter/maize/maize_threshing.i3d (20.90 ms)
+2022-04-23 00:28 data/effects/cutter/sunflower/sunflower_threshing.i3d (21.33 ms)
+2022-04-23 00:28 data/effects/fertilizer/fertilizer.i3d (45.42 ms)
+2022-04-23 00:28 data/effects/chopper/strawChopper.i3d (227.23 ms)
+2022-04-23 00:28 data/effects/tedder/tedder.i3d (56.40 ms)
+2022-04-23 00:28 data/effects/windrower/windrower.i3d (52.64 ms)
+2022-04-23 00:28 data/effects/cultivator/cultivator.i3d (74.89 ms)
+2022-04-23 00:28 data/effects/plow/plow.i3d (45.94 ms)
+2022-04-23 00:28 data/effects/pickup/pickupIN.i3d (86.88 ms)
+2022-04-23 00:28 data/effects/pickup/pickupOUT.i3d (42.39 ms)
+2022-04-23 00:28 data/effects/mower/mower.i3d (56.94 ms)
+2022-04-23 00:28 data/effects/mixerWagon/mixerWagon.i3d (111.59 ms)
+2022-04-23 00:28 data/effects/grape/grape_fruitsLeaves.i3d (9.56 ms)
+2022-04-23 00:28 data/effects/grape/grape_fruitsClean.i3d (3.39 ms)
+2022-04-23 00:28 data/effects/grape/grape_fruitsHarvested.i3d (5.51 ms)
+2022-04-23 00:28 data/effects/grape/grape_threshing.i3d (3.91 ms)
+2022-04-23 00:28 data/effects/grape/grape_prePruner.i3d (3.68 ms)
+2022-04-23 00:28 data/effects/olive/olive_fruitsLeaves.i3d (11.85 ms)
+2022-04-23 00:28 data/effects/olive/olive_fruitsClean.i3d (12.84 ms)
+2022-04-23 00:28 data/effects/olive/olive_threshing.i3d (9.72 ms)
+2022-04-23 00:28 data/effects/manure/manure.i3d (22.36 ms)
+2022-04-23 00:28 data/effects/stone/small/stone.i3d (13.39 ms)
+2022-04-23 00:28 data/effects/stone/medium/stone.i3d (6.00 ms)
+2022-04-23 00:28 data/effects/stone/big/stone.i3d (6.67 ms)
+2022-04-23 00:28 data/effects/wood/wood_cutter.i3d (8.29 ms)
+2022-04-23 00:28 data/effects/sugarcane/sugarcane_prepareFruit.i3d (7.86 ms)
+2022-04-23 00:28 data/effects/sugarcane/sugarcane_chopper.i3d (9.20 ms)
+2022-04-23 00:28 data/effects/sugarcane/sugarcane_chaffer.i3d (5.55 ms)
+2022-04-23 00:28 data/effects/sugarcane/sugarcane_cutter.i3d (8.79 ms)
+2022-04-23 00:28 data/effects/snow/snowPieces.i3d (25.07 ms)
+2022-04-23 00:28 data/effects/snow/snowDust.i3d (10.39 ms)
+2022-04-23 00:28 data/sky/rain.i3d (3.75 ms)
+2022-04-23 00:28 data/sky/snow.i3d (2.87 ms)
+2022-04-23 00:28 data/maps/mapFR/map.i3d (3538.93 ms)
+2022-04-23 00:28 data/maps/mapFR/sounds.i3d (78.80 ms)
+2022-04-23 00:28 data/foliage/decoFoliage/decoFoliageFR.i3d (54.81 ms)
+2022-04-23 00:28 data/foliage/groundFoliage/groundFoliage.i3d (140.83 ms)
+2022-04-23 00:28 data/foliage/decoBush/decoBush.i3d (44.68 ms)
+2022-04-23 00:28 data/foliage/meadow/meadowFR.i3d (77.51 ms)
+2022-04-23 00:28 data/foliage/grass/grass.i3d (14.43 ms)
+2022-04-23 00:28 data/foliage/wheat/wheat.i3d (43.27 ms)
+2022-04-23 00:28 data/foliage/canola/canola.i3d (36.19 ms)
+2022-04-23 00:28 data/foliage/barley/barley.i3d (46.71 ms)
+2022-04-23 00:28 data/foliage/maize/maize.i3d (54.15 ms)
+2022-04-23 00:28 data/foliage/potato/potato.i3d (49.53 ms)
+2022-04-23 00:28 data/foliage/potato/potatoHaulm.i3d (5.33 ms)
+2022-04-23 00:28 data/foliage/sugarbeet/sugarbeet.i3d (44.06 ms)
+2022-04-23 00:28 data/foliage/sugarbeet/sugarbeetHaulm.i3d (4.81 ms)
+2022-04-23 00:28 data/foliage/sunflower/sunflower.i3d (29.24 ms)
+2022-04-23 00:28 data/foliage/soybean/soybean.i3d (39.90 ms)
+2022-04-23 00:28 data/foliage/oilseedRadish/oilseedRadish.i3d (8.55 ms)
+2022-04-23 00:28 data/foliage/poplar/poplar.i3d (13.71 ms)
+2022-04-23 00:28 data/foliage/oat/oat.i3d (15.61 ms)
+2022-04-23 00:28 data/foliage/sugarcane/sugarcane.i3d (19.76 ms)
+2022-04-23 00:28 data/foliage/sugarcane/sugarCaneHaulm.i3d (3.71 ms)
+2022-04-23 00:28 data/foliage/cotton/cotton.i3d (21.46 ms)
+2022-04-23 00:28 data/foliage/sorghum/sorghum.i3d (38.68 ms)
+2022-04-23 00:28 data/foliage/olive/olive.i3d (25.25 ms)
+2022-04-23 00:28 data/foliage/grape/grape.i3d (1.91 ms)
+2022-04-23 00:28 Info: transform group 'C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/savegame3/densityMap_fruits.gdm' has elements very far out from the cell edge (56.51% expansion)
+2022-04-23 00:28 data/foliage/weed/weed.i3d (47.20 ms)
+2022-04-23 00:28 data/foliage/stone/stone.i3d (6.20 ms)
+2022-04-23 00:28 FoliageTransformGroup 'C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/savegame3/densityMap_fruits.gdm' may need space for up to 2910400 instances (1819 per cell x 1600 cells)
+2022-04-23 00:28 FoliageTransformGroup 'C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/savegame3/densityMap_weed.gdm' may need space for up to 401408 instances (512 per cell x 784 cells)
+2022-04-23 00:28 FoliageTransformGroup 'C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/savegame3/densityMap_stones.gdm' may need space for up to 401408 instances (512 per cell x 784 cells)
+2022-04-23 00:28   Info: Loaded navigation cost map from savegame
+2022-04-23 00:28 data/effects/cultivator/particle/soilParticle.i3d (19.15 ms)
+2022-04-23 00:28 data/effects/cultivator/cultivatorMeshes_materialHolder.i3d (6.47 ms)
+2022-04-23 00:28 data/effects/slurry/slurryEffects_materialHolder.i3d (11.62 ms)
+2022-04-23 00:28 data/effects/unload/unloadMeshes_materialHolder.i3d (25.49 ms)
+2022-04-23 00:28 data/effects/unload/unloadParticles_materialHolder.i3d (3.97 ms)
+2022-04-23 00:28 data/effects/unload/unloadParticles.i3d (1.70 ms)
+2022-04-23 00:28 data/effects/smoke/smokeParticles.i3d (1.38 ms)
+2022-04-23 00:28 data/effects/smoke/smokeParticles_materialHolder.i3d (1.39 ms)
+2022-04-23 00:28 data/effects/wheel/wheelParticles.i3d (5.87 ms)
+2022-04-23 00:28 data/effects/bees/beesParticles.i3d (4.40 ms)
+2022-04-23 00:28 data/effects/horse/horseStepParticleSystem.i3d (3.17 ms)
+2022-04-23 00:28 data/effects/sprayer/particle/washer.i3d (4.30 ms)
+2022-04-23 00:28 data/effects/sprayer/sprayerMeshes_materialHolder.i3d (8.34 ms)
+2022-04-23 00:28 data/effects/leveler/levelerMeshes_materialHolder.i3d (4.73 ms)
+2022-04-23 00:28 data/effects/wood/particle/forestry.i3d (8.83 ms)
+2022-04-23 00:28 data/effects/belt/beltMeshes_materialHolder.i3d (23.55 ms)
+2022-04-23 00:28 data/effects/potato/particle/potato.i3d (12.21 ms)
+2022-04-23 00:28 data/effects/sugarBeet/particle/sugarBeet.i3d (3.76 ms)
+2022-04-23 00:28 data/effects/cotton/particle/cotton.i3d (8.36 ms)
+2022-04-23 00:28 data/shared/materialHolders/tensionBeltMaterialHolder.i3d (14.36 ms)
+2022-04-23 00:28 data/shared/materialHolders/tireTrackMaterialHolder.i3d (6.58 ms)
+2022-04-23 00:28 data/shared/mapTargetMarker.i3d (2.37 ms)
+2022-04-23 00:28 data/fillPlanes/fillPlane_materialHolder.i3d (4.58 ms)
+2022-04-23 00:28 data/placeables/planET/bga1mw/bga1mw_mixers.i3d (17.30 ms)
+2022-04-23 00:28 data/objects/helpIcon/icon.i3d (3.89 ms)
+2022-04-23 00:28 data/objects/helpIcon/icon.i3d (1.43 ms)
+2022-04-23 00:28 data/objects/helpIcon/icon.i3d (1.57 ms)
+2022-04-23 00:28 data/objects/helpIcon/icon.i3d (1.67 ms)
+2022-04-23 00:28 data/objects/helpIcon/icon.i3d (1.80 ms)
+2022-04-23 00:28 data/store/ui/shop.i3d (48.23 ms)
+2022-04-23 00:28 dataS/menu/licensePlate/creationBox.i3d (0.21 ms)
+2022-04-23 00:28 data/store/ui/wardrobe.i3d (88.80 ms)
+2022-04-23 00:28 data/shared/assets/marker/markerIcons.i3d (2.46 ms)
+2022-04-23 00:28 data/placeables/planET/bgaBunkerSilo/bgaBunkerSilo.i3d (2.62 ms)
+2022-04-23 00:28 data/placeables/lizard/weighingStation/weighingStationSmall/weighingStationSmall.i3d (13.38 ms)
+2022-04-23 00:28 data/shared/assets/lights/terraLed/spotlight20W.i3d (12.04 ms)
+2022-04-23 00:28 data/shared/assets/lights/terraLed/fluorescentTube50W.i3d (8.44 ms)
+2022-04-23 00:28 data/placeables/planET/bgaHall/bgaHall.i3d (15.12 ms)
+2022-04-23 00:28 data/placeables/mapFR/sellingStationGrainElevator/sellingStationGrainElevator.i3d (1.66 ms)
+2022-04-23 00:28 data/placeables/mapFR/sellingStationWood/sellingStationWood.i3d (1.73 ms)
+2022-04-23 00:28 data/placeables/mapFR/sellingStationWool/sellingStationWool.i3d (1.76 ms)
+2022-04-23 00:28 data/placeables/mapFR/sellingStationBales/sellingStationBales.i3d (1.98 ms)
+2022-04-23 00:28 data/placeables/mapFR/sellingStationGrainMill/sellingStationGrainMill.i3d (2.35 ms)
+2022-04-23 00:28 data/placeables/mapFR/sellingStationBakery/sellingStationBakery.i3d (1.74 ms)
+2022-04-23 00:28 data/placeables/mapFR/sellingStationCheeseDairy/sellingStationCheeseDairy.i3d (2.15 ms)
+2022-04-23 00:28 data/placeables/mapFR/sellingStationFarmShop/sellingStationFarmShop.i3d (2.13 ms)
+2022-04-23 00:28 data/placeables/mapFR/railroadSilo01/railroadSilo01.i3d (2.76 ms)
+2022-04-23 00:28 data/placeables/mapFR/railroadSilo02/railroadSilo02.i3d (2.84 ms)
+2022-04-23 00:28 data/placeables/mapFR/sellingStationTrain/sellingStationTrain.i3d (0.84 ms)
+2022-04-23 00:28 data/placeables/mapFR/sellingStationWoodTrain/sellingStationWoodTrain.i3d (1.57 ms)
+2022-04-23 00:28 data/placeables/mapFR/sellingStationVehicles/sellingStationVehicles.i3d (1.97 ms)
+2022-04-23 00:28 data/placeables/mapFR/gasStation/gasStation.i3d (1.84 ms)
+2022-04-23 00:28 data/placeables/lizard/sellingPoints/bhp/bhp.i3d (34.83 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/buildings/industrialWallLight.i3d (4.29 ms)
+2022-04-23 00:28 data/placeables/lizard/productionPoints/carpenterEU/carpenterEU.i3d (21.13 ms)
+2022-04-23 00:28 data/placeables/lizard/productionPoints/carpenterEU/props.i3d (60.09 ms)
+2022-04-23 00:28 data/placeables/lizard/limeStation/limeStation.i3d (8.83 ms)
+2022-04-23 00:28 data/placeables/lizard/productionPoints/raisinFactory/raisinFactory.i3d (23.30 ms)
+2022-04-23 00:28 data/placeables/lizard/productionPoints/raisinFactory/props.i3d (16.81 ms)
+2022-04-23 00:28 data/placeables/lizard/sellingPoints/debrisCrusher/debrisCrusher.i3d (14.59 ms)
+2022-04-23 00:28 data/placeables/mapFR/trainSystem/trainSystem.i3d (10.13 ms)
+2022-04-23 00:28 data/placeables/mapFR/farmBuildings/farmBuilding.i3d (46.47 ms)
+2022-04-23 00:28 data/placeables/mapFR/farmBuildings/garageProps.i3d (81.05 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/buildings/garageCeilingLamp.i3d (3.30 ms)
+2022-04-23 00:28 data/placeables/rudolfHormann/sheepBarnBig/sheepBarnBig.i3d (40.83 ms)
+2022-04-23 00:28 data/shared/assets/lights/terraLed/switch.i3d (18.60 ms)
+2022-04-23 00:28 data/placeables/rudolfHormann/controlPanel/controlPanel.i3d (12.73 ms)
+2022-04-23 00:28 data/placeables/rudolfHormann/sheepBarnBig/navigationMesh.i3d (2.26 ms)
+2022-04-23 00:28 data/placeables/lizard/fencesFarm/sheepNetFence/sheepNetFence.i3d (18.65 ms)
+2022-04-23 00:28 data/placeables/unia/farma/farma400/farma400.i3d (27.06 ms)
+2022-04-23 00:28 data/placeables/sellingStationGeneric/sellingStationGenericNoCover.i3d (12.15 ms)
+2022-04-23 00:28   Warning: PlaceableUtil.loadPlaceable can only load existing store items, no store item for xml filename 'C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_grainquidStorage'
+2022-04-23 00:28   Warning: PlaceableUtil.loadPlaceable can only load existing store items, no store item for xml filename 'C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_grainquidStorage'
+2022-04-23 00:28   Warning: PlaceableUtil.loadPlaceable can only load existing store items, no store item for xml filename 'C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_grainquidStorage'
+2022-04-23 00:28 data/vehicles/train/locomotive01/locomotive01.i3d (45.32 ms)
+2022-04-23 00:28 data/vehicles/train/wagonGrain/wagonGrain.i3d (19.43 ms)
+2022-04-23 00:28 data/vehicles/train/wagonWoodChips/wagonWoodChips.i3d (8.41 ms)
+2022-04-23 00:28 data/vehicles/train/wagonTimber/wagonTimber.i3d (7.44 ms)
+2022-04-23 00:28 data/vehicles/train/wagonSugarbeets/wagonSugarbeets.i3d (13.47 ms)
+2022-04-23 00:28 data/vehicles/train/wagonVehicles/wagonVehicles.i3d (7.10 ms)
+2022-04-23 00:28 data/vehicles/claas/scorpion1033/scorpion1033.i3d (100.50 ms)
+2022-04-23 00:28 data/shared/assets/wheelChocks/wheelChock01.i3d (17.37 ms)
+2022-04-23 00:28 data/vehicles/claas/scorpion1033/sounds/scorpion1033_loop.gls version 14 (0.20 ms)
+2022-04-23 00:28 data/shared/wheels/hubs/hubs.i3d (158.98 ms)
+2022-04-23 00:28 data/effects/wheel/wheelEmitterShape.i3d (1.51 ms)
+2022-04-23 00:28 data/shared/wheels/tires/trelleborg/TH400/R24_TH400.i3d (10.26 ms)
+2022-04-23 00:28 data/shared/wheels/rims/rim001.i3d (5.72 ms)
+2022-04-23 00:28 data/effects/exhaust/exhaust.i3d (5.03 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/workingLight12.i3d (7.03 ms)
+2022-04-23 00:28 data/shared/assets/beaconLights/lizard/beaconLight07.i3d (8.03 ms)
+2022-04-23 00:28 data/vehicles/magsi/telehandlerFork/telehandlerFork.i3d (7.94 ms)
+2022-04-23 00:28 data/vehicles/brantner/ta23065/ta23065.i3d (22.32 ms)
+2022-04-23 00:28 data/shared/assets/wheelChocks/wheelChockSupport01.i3d (3.65 ms)
+2022-04-23 00:28 data/shared/wheels/tires/trelleborg/T404/R26_5_T404.i3d (9.19 ms)
+2022-04-23 00:28 data/shared/assets/reflectors/lizard/redTriangle_01.i3d (2.79 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/sideMarker03.i3d (8.38 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/rearLight31.i3d (7.27 ms)
+2022-04-23 00:28 data/shared/assets/reflectors/lizard/yellowRound_03.i3d (2.15 ms)
+2022-04-23 00:28 data/vehicles/fendt/vario1000/vario1000.i3d (104.69 ms)
+2022-04-23 00:28 data/shared/wheels/tires/michelin/axioBib/R38_axioBib.i3d (12.74 ms)
+2022-04-23 00:28 data/shared/wheels/tires/michelin/axioBib/R46_axioBib.i3d (3.65 ms)
+2022-04-23 00:28 data/vehicles/fendt/vario1000/sounds/vario1000_loop.gls version 14 (0.32 ms)
+2022-04-23 00:28 data/shared/wheels/weights/weight003.i3d (9.81 ms)
+2022-04-23 00:28 data/shared/assets/beaconLights/lizard/beaconLight02.i3d (6.63 ms)
+2022-04-23 00:28 data/shared/assets/upperLinks/walterscheid04.i3d (7.58 ms)
+2022-04-23 00:28 data/shared/assets/toolbar.i3d (9.71 ms)
+2022-04-23 00:28 data/shared/assets/upperLinks/walterscheid01.i3d (3.00 ms)
+2022-04-23 00:28 data/objects/pallets/woolPallet/woolPallet.i3d (10.58 ms)
+2022-04-23 00:28 data/vehicles/krampe/dolly10L/dolly10L.i3d (18.22 ms)
+2022-04-23 00:28 data/shared/wheels/tires/trelleborg/TwinRadial/R22_5_TwinRadial.i3d (10.58 ms)
+2022-04-23 00:28 data/shared/assets/reflectors/lizard/whiteRectangle_01.i3d (3.37 ms)
+2022-04-23 00:28 data/shared/assets/reflectors/lizard/yellowRectangle_01.i3d (2.69 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/plateNumberLight02.i3d (6.89 ms)
+2022-04-23 00:28 data/vehicles/fendt/vario700/vario700.i3d (100.88 ms)
+2022-04-23 00:28 data/shared/wheels/tires/trelleborg/TM800/R30_TM800.i3d (7.90 ms)
+2022-04-23 00:28 data/shared/wheels/tires/trelleborg/TM800/R42_TM800.i3d (3.28 ms)
+2022-04-23 00:28 data/vehicles/fendt/vario700/sounds/vario700_loop.gls version 14 (0.28 ms)
+2022-04-23 00:28 data/shared/assets/lights/hella/hellaWorkingLightSquare_02.i3d (8.65 ms)
+2022-04-23 00:28 data/shared/assets/beaconLights/lizard/beaconLight01.i3d (2.56 ms)
+2022-04-23 00:28 data/vehicles/berthoud/vantage4300/vantage4300.i3d (56.93 ms)
+2022-04-23 00:28 data/shared/wheels/tires/trelleborg/TM100/R48_TM100.i3d (8.55 ms)
+2022-04-23 00:28 data/shared/assets/powerTakeOffs/walterscheidW.i3d (8.05 ms)
+2022-04-23 00:28 data/vehicles/kotte/tsa/tsa.i3d (45.35 ms)
+2022-04-23 00:28 data/shared/wheels/tires/continental/contiCrossTracHS3/R22_5_contiCrossTracHS3.i3d (8.92 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/rearLight22White.i3d (8.37 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/rearLight10.i3d (8.04 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/sideMarker01.i3d (9.82 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/workingLight15.i3d (8.58 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/sideMarker05Orange.i3d (12.51 ms)
+2022-04-23 00:28 data/shared/assets/reflectors/lizard/redTriangle_02.i3d (2.53 ms)
+2022-04-23 00:28 data/shared/assets/beaconLights/lizard/beaconLight03.i3d (2.34 ms)
+2022-04-23 00:28 data/vehicles/krampe/sks30_150/sks30_150.i3d (38.16 ms)
+2022-04-23 00:28 data/shared/wheels/hubs/hubTrucks.i3d (33.32 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/workingLight14.i3d (9.80 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/rearLight55.i3d (9.11 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/sideMarker15.i3d (5.21 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/sideMarker09Orange.i3d (7.35 ms)
+2022-04-23 00:28 data/vehicles/andersonGroup/rbm2000/rbm2000.i3d (34.55 ms)
+2022-04-23 00:28 data/shared/wheels/tires/trelleborg/T404/R22_5_T404.i3d (7.23 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/rearLight43.i3d (8.87 ms)
+2022-04-23 00:28 data/shared/assets/reflectors/lizard/yellowRound_01.i3d (2.87 ms)
+2022-04-23 00:28 C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_tatraPhoenix/phoenix.i3d (179.98 ms)
+2022-04-23 00:28 data/shared/wheels/hubs/hubTatra.i3d (8.75 ms)
+2022-04-23 00:28 C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_tatraPhoenix/sounds/tatraPhoenix_loop.gls version 14 (0.30 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/workingLight02.i3d (9.03 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/frontLight05.i3d (6.89 ms)
+2022-04-23 00:28 data/objects/pallets/sunflowerOilPallet/sunflowerOilPallet.i3d (71.37 ms)
+2022-04-23 00:28 data/objects/pallets/bakeryBoxPallet/bakeryBoxPallet.i3d (56.33 ms)
+2022-04-23 00:28 data/vehicles/lizard/mks32/mks32.i3d (27.96 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/rearLight16.i3d (11.58 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/plateNumberLight01.i3d (10.98 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/sideMarker16Orange.i3d (4.72 ms)
+2022-04-23 00:28 data/shared/assets/lights/lizard/rearLight24.i3d (2.88 ms)
+2022-04-23 00:28 dataS/character/humans/npc/pedestrians/generic/npcCommon04_m.i3d (329.53 ms)
+2022-04-23 00:28   Setting 'Radio Volume': 0.500
+2022-04-23 00:28   Setting 'Vehicle Volume': 0.700
+2022-04-23 00:28   Setting 'Environment Volume': 1.000
+2022-04-23 00:28   Setting 'GUI Volume': 0.500
+2022-04-23 00:28   Info: Savegame Setting 'dirtInterval': 4
+2022-04-23 00:28   Info: Savegame Setting 'snowEnabled': true
+2022-04-23 00:28   Info: Savegame Setting 'growthMode': 2
+2022-04-23 00:28   Info: Savegame Setting 'fuelUsage': 2
+2022-04-23 00:28   Info: Savegame Setting 'plowingRequiredEnabled': false
+2022-04-23 00:28   Info: Savegame Setting 'weedsEnabled': false
+2022-04-23 00:28   Info: Savegame Setting 'limeRequired': false
+2022-04-23 00:28   Info: Savegame Setting 'stonesEnabled': false
+2022-04-23 00:28   Info: Savegame Setting 'economicDifficulty': 1
+2022-04-23 00:28   Info: Savegame Setting 'fixedSeasonalVisuals': 11
+2022-04-23 00:28   Info: Savegame Setting 'plannedDaysPerPeriod': 1
+2022-04-23 00:28 dataS/character/humans/player/player02.i3d (13.67 ms)
+2022-04-23 00:28 dataS/character/humans/npc/pedestrians/generic/npcCommon04_m.i3d (15.72 ms)
+2022-04-23 00:28 dataS/character/player02/brands/brand04/fendBottom.i3d (61.83 ms)
+2022-04-23 00:28 dataS/character/player02/heads/femHead01.i3d (139.02 ms)
+2022-04-23 00:28 dataS/character/player02/brands/brand07/eltenMaddoxLowBlue.i3d (82.32 ms)
+2022-04-23 00:28 dataS/character/player02/attachments/glassesReading.i3d (2.09 ms)
+2022-04-23 00:28 dataS/character/player02/hairStyles/hairStylePonytail02.i3d (9.14 ms)
+2022-04-23 00:28 dataS/character/player02/brands/brand04/fendTop.i3d (63.82 ms)
+2022-04-23 00:29 C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bbLifter.i3d (9.76 ms)
+2022-04-23 00:29   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): Missing collision mask bit '13'. Please add this bit to component node 'bbLifter'
+2022-04-23 00:29   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): Missing collision mask bit '21'. Please add this bit to component node 'bbLifter'
+2022-04-23 00:29   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): No clipdistance is set to component node 'bbLifter' (0>). Set default clipdistance '300'
+2022-04-23 00:29   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): Invalid color value 'BLACK' in 'vehicle.baseMaterial.material(0).shaderParameter(0)#value'.
+2022-04-23 00:29   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): Failed to load shader parameter value or material for base material 'vehicle.baseMaterial.material(0).shaderParameter(0)'
+2022-04-23 00:29   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): Invalid color value 'RED' in 'vehicle.baseMaterial.material(0).shaderParameter(1)#value'.
+2022-04-23 00:29   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): Failed to load shader parameter value or material for base material 'vehicle.baseMaterial.material(0).shaderParameter(1)'
+2022-04-23 00:29   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): Missing shaderParameters for base material 'vehicle.baseMaterial.material(0)'
+2022-04-23 00:29 Warning (physics): Add wake up callback failed, object bbLifter is not a physics object.
+2022-04-23 00:30   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): Missing collision mask bit '13'. Please add this bit to component node 'bbLifter'
+2022-04-23 00:30   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): Missing collision mask bit '21'. Please add this bit to component node 'bbLifter'
+2022-04-23 00:30   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): No clipdistance is set to component node 'bbLifter' (0>). Set default clipdistance '300'
+2022-04-23 00:30   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): Invalid color value 'BLACK' in 'vehicle.baseMaterial.material(0).shaderParameter(0)#value'.
+2022-04-23 00:30   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): Failed to load shader parameter value or material for base material 'vehicle.baseMaterial.material(0).shaderParameter(0)'
+2022-04-23 00:30   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): Invalid color value 'RED' in 'vehicle.baseMaterial.material(0).shaderParameter(1)#value'.
+2022-04-23 00:30   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): Failed to load shader parameter value or material for base material 'vehicle.baseMaterial.material(0).shaderParameter(1)'
+2022-04-23 00:30   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_bbLifter/bagLifterFL.xml): Missing shaderParameters for base material 'vehicle.baseMaterial.material(0)'
+2022-04-23 00:30 Warning (physics): Add wake up callback failed, object bbLifter is not a physics object.
+2022-04-23 00:30 Error while adding physics obstacles: zero half extent is only allowed for rigid body transforms
+2022-04-23 00:30 dataS/menu/licensePlate/creationBox.i3d (0.23 ms)
+2022-04-23 00:30 data/vehicles/masseyFerguson/series6700S/series6700S.i3d (418.61 ms)
+2022-04-23 00:30 data/shared/wheels/tires/trelleborg/TM700/R28_TM700.i3d (52.08 ms)
+2022-04-23 00:30 data/vehicles/masseyFerguson/series6700S/sounds/series6700S_loop.gls version 14 (0.41 ms)
+2022-04-23 00:30 data/shared/wheels/tires/trelleborg/TM700/R42_TM700.i3d (54.84 ms)
+2022-04-23 00:30 data/shared/assets/reflectors/lizard/yellowRound_02.i3d (20.48 ms)
+2022-04-23 00:30 data/shared/assets/upperLinks/walterscheid03.i3d (33.88 ms)
+2022-04-23 00:30 dataS/menu/licensePlate/creationBox.i3d (0.36 ms)
+2022-04-23 00:31 data/vehicles/quicke/q4M/q4M.i3d (120.56 ms)
+2022-04-23 00:31 dataS/character/animals/wild/deer/deerAdult.i3d (91.02 ms)
+2022-04-23 00:33 Application exit request forced.
+2022-04-23 00:33 Application exit request forced.

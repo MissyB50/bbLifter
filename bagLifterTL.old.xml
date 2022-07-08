@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="implement" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/vehicle.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <storeData>
+        <name>BIG BAG LIFTER - SINGLE</name>
+        <specs>
+            <combination xmlFilename="$data/vehicles/quicke/q3M/q3M.xml"/>
+            <combination xmlFilename="$data/vehicles/quicke/q4M/q4M.xml"/>
+            <combination xmlFilename="$data/vehicles/quicke/q5M/q5M.xml"/>
+            <combination xmlFilename="$data/vehicles/quicke/q6M/q6M.xml"/>
+            <combination xmlFilename="$data/vehicles/quicke/q7M/q7M.xml"/>
+            <combination filterCategory="frontLoaderVehicles" />
+        </specs>
+        <functions>
+            <function>$l10n_function_bigBagLifter</function>
+        </functions>
+        <image>$data/vehicles/quicke/bagLifter/store_bagLifter.png</image>
+        <price>700</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>QUICKE</brand>
+        <category>frontLoaderTools</category>
+        <shopHeight>2</shopHeight>
+        <shopTranslationOffset>0 -0.007 0</shopTranslationOffset>
+        <shopRotationOffset>5.089 0 0</shopRotationOffset>
+        <vertexBufferMemoryUsage>115200</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>23040</indexBufferMemoryUsage>
+        <textureMemoryUsage>851968</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <audioMemoryUsage>0</audioMemoryUsage>
+    </storeData>
+
+    <base>
+        <typeDesc>$l10n_typeDesc_frontloaderTool</typeDesc>
+        <filename>$data/vehicles/quicke/bagLifter/bagLifter.i3d</filename>
+        <size width="2.5" length="2" lengthOffset="0.3"/>
+        <components>
+            <component centerOfMass="0 0.1 0" solverIterationCount="30" mass="150" />
+        </components>
+        <schemaOverlay attacherJointPosition="0 0" name="IMPLEMENT" />
+        <mapHotspot type="TOOL" />
+    </base>
+
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJoint" jointType="frontloader">
+                <objectChange node="bagLifter_main_component1" centerOfMassActive="0 0.7 0.2" centerOfMassInactive="0 0.1 0"/>
+            </inputAttacherJoint>
+        </inputAttacherJoints>
+    </attachable>
+
+    <attacherJoints>
+        <attacherJoint node="bigBagJoint" jointType="bigBag" allowsJointLimitMovement="false" allowsLowering="false" lowerRotLimit="5 5 90" upperRotLimit="5 5 90" upperTransLimit="0 0 0" lowerTransLimit="0 0 0" rotLimitSpring="7500 7500 7500" rotLimitDamping="1 1 1" transLimitSpring="7500 7500 7500" transLimitDamping="1 1 1">
+            <schema position="1 0" rotation="0" invertX="false" />
+        </attacherJoint>
+        <sounds>
+            <attach template="ATTACH_BigBag" volumeScale="1" pitchScale="0.8"/>
+        </sounds>
+    </attacherJoints>
+
+    <ai>
+        <agentAttachment width="1.4" height="1.9" length="1.3" lengthOffset="0.4"/>
+    </ai>
+
+    <foliageBending>
+        <bendingNode minX="-0.7" maxX="0.7" minZ="-0.1" maxZ="0.2" yOffset="0.05" />
+    </foliageBending>
+
+    <baseMaterial>
+        <material name="bagLifter_mat" baseNode="bagLifter_vis">
+            <shaderParameter name="colorMat0" value="QUICKE_ORANGE1"/>
+            <shaderParameter name="colorMat1" value="QUICKE_BLACK1"/>
+        </material>
+    </baseMaterial>
+
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="6" fieldMultiplier="2"/>
+
+    <i3dMappings>
+        <i3dMapping id="bagLifter_main_component1" node="0>" />
+        <i3dMapping id="bagLifter_vis" node="0>0" />
+        <i3dMapping id="attacherJoint" node="0>0|0|0" />
+        <i3dMapping id="bigBagJoint" node="0>0|0|1" />
+    </i3dMappings>
+</vehicle>

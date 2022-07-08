@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="64">
+    <author>MISSYB</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Big Bag Lifter</en>
+        <de>Big-Bag-Heber</de>
+        <fr>Élévateur de gros sacs</fr>
+        <sw>Big Bag Lifter</sw>
+    </title>
+<description>
+<en><![CDATA[...
+]]></en>
+
+<de><![CDATA[...
+]]></de>
+
+<fr><![CDATA[...
+]]></fr>
+
+<sw><![CDATA[...
+]]></sw>
+
+</description>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true" />
+    <storeItems>
+        <storeItem xmlFilename="bagLifterFL.xml"/>
+<!--         <storeItem xmlFilename="bagLifterFL.xml"/>
+        <storeItem xmlFilename="bagLifterFL.xml"/> -->
+    </storeItems>
+</modDesc>

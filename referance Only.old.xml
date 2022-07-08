@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="CSZpackTrailer">
+    <annotation>Copyright (C) DD ModPassion, All Rights Reserved.</annotation>
+    <storeData>
+        <name>$l10n_name_movimentatoreBigBagT</name>
+        <specs>
+            <combination>$l10n_configuration_inputAttacherTeleLoaders</combination>
+        </specs>
+        <image>image/store_movimentatoreBigBag_teleLoaders.png</image>
+        <price>350</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>CSZ</brand>
+        <category>teleLoaders</category>
+        <shopTranslationOffset>0 0 0</shopTranslationOffset>
+        <shopHeight>3</shopHeight>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_telehandlerTool</typeDesc>
+        <filename>filename/movimentatoreBigBag.i3d</filename>
+        <size width="2" length="2"/>
+        <components>
+            <component centerOfMass="0 0 0" solverIterationCount="10" mass="180"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_IMPLEMENT"/>
+            <turnedOn name="DEFAULT_IMPLEMENT_ON"/>
+            <selected name="DEFAULT_IMPLEMENT_SELECTED"/>
+            <turnedOnSelected name="DEFAULT_IMPLEMENT_SELECTED_ON"/>
+        </schemaOverlay>
+    </base>
+    <attachable>
+        <inputAttacherJointConfigurations>
+            <inputAttacherJointConfiguration>
+                <inputAttacherJoint node="attacherJoint" jointType="telehandler"/>
+                <objectChange node="0>1" scaleActive="0 0 0" visibilityActive="false"/>
+                <objectChange node="0>2" scaleActive="0 0 0" visibilityActive="false"/>
+                <objectChange node="0>3" scaleActive="1 1 1" visibilityActive="true"/>
+                <objectChange node="0>4" scaleActive="0 0 0" visibilityActive="false"/>
+                <objectChange node="0>5|1" scaleActive="0.9 1 1"/>
+            </inputAttacherJointConfiguration>
+        </inputAttacherJointConfigurations>
+        <toolCameras>
+            <toolCamera node="0>0|2|1|0" rotatable="true" rotateNode="0>0|2|1" limit="true" useWorldXZRotation="true" useWorldXZTranslation="true" rotMinX="-1.4" rotMaxX="1" transMin="1.5" transMax="18" translation="0 0 5.5" rotation="-17.5 180 0">
+                <raycastNode node="0>0|2|1"/>
+                <raycastNode node="0>0|2|2"/>
+                <raycastNode node="0>0|2|3"/>
+            </toolCamera>
+        </toolCameras>
+    </attachable>
+    <tensionBelts>
+        <tensionBeltsConfigurations>
+            <tensionBeltsConfiguration>
+				<tensionBelts linkNode="CSZ_component1" jointNode="0>" width="0.075" maxEdgeLength="0.1" geometryBias="0.01" ratchetPosition="0.2" defaultOffset="0.1" defaultOffsetSide="0.1" defaultHeight="4" activationTrigger="0>5|0|2">
+					<tensionBelt startNode="0>5|0|0" endNode="0>5|0|0|0" offsetLeft="0.95"/>
+					<tensionBelt startNode="0>5|0|1" endNode="0>5|0|1|0" offsetRight="0.8"/>
+				</tensionBelts>
+            </tensionBeltsConfiguration>
+        </tensionBeltsConfigurations>
+    </tensionBelts>
+    <tensionBeltObject>
+        <meshNodes>
+            <meshNode node="0>1|1"/>
+            <meshNode node="0>2|1"/>
+            <meshNode node="0>3|1"/>
+            <meshNode node="0>4|1"/>
+            <meshNode node="0>5"/>
+            <meshNode node="0>5|1"/>
+        </meshNodes>
+    </tensionBeltObject>
+    <foliageBending>
+        <bendingNode minX="0" maxX="0" minZ="0" maxZ="0" yOffset="0.02"/>
+    </foliageBending>
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="6" fieldMultiplier="2"/>
+    <i3dMappings>
+        <i3dMapping id="CSZ_component1" node="0>"/>
+        <i3dMapping id="attacherJoint" node="0>3|0"/>
+    </i3dMappings>
+</vehicle>
