@@ -2,7 +2,7 @@
 
 <i3D name="bbLifter" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
   <Asset>
-    <Export program="GIANTS Editor 64bit" version="9.0.2"/>
+    <Export program="GIANTS Editor 64bit" version="9.0.3"/>
   </Asset>
 
   <Files>
@@ -77,7 +77,7 @@
           <Shape shapeId="2" name="brackets" rotation="-6.83019e-06 -0 0" dynamic="true" collisionMask="8194" clipDistance="150" nodeId="18" materialIds="8" castsShadows="true" receiveShadows="true"/>
         </Shape>
         <TransformGroup name="attachable" nodeId="19">
-          <TransformGroup name="attacherJoint" translation="3.79723e-19 0.3 -0.14" nodeId="20"/>
+          <TransformGroup name="attacherJoint" translation="3.79723e-19 0.3 -0.14" static="true" trigger="true" nodeId="20"/>
         </TransformGroup>
         <TransformGroup name="decals" nodeId="21"/>
         <TransformGroup name="attachments" nodeId="22">
@@ -93,8 +93,8 @@
           <Shape shapeId="4" name="beltActivationTrigger" visibility="false" kinematic="true" trigger="true" collisionMask="16777216" nodeId="29" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         </TransformGroup>
         <TransformGroup name="collisions" visibility="false" nodeId="30">
-          <Shape shapeId="5" name="cols" rotation="-6.83019e-06 -0 0" visibility="false" static="true" nodeId="31" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
-            <Shape shapeId="6" name="colsBrackets" rotation="-6.83019e-06 -0 0" visibility="false" static="true" nodeId="32" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="5" name="cols" rotation="-6.83019e-06 -0 0" visibility="false" static="true" collisionMask="2105599" nodeId="31" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="6" name="colsBrackets" rotation="-6.83019e-06 -0 0" visibility="false" static="true" collisionMask="2105599" nodeId="32" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
           </Shape>
         </TransformGroup>
       </TransformGroup>
